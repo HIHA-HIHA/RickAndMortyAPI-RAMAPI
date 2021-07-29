@@ -1,4 +1,4 @@
-# RickAndMortyAPI RAMAPI
+# RickAndMortyAPI (RAMAPI)
  Work with RickAndMortyAPI
 
  usage:
