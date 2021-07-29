@@ -1,6 +1,8 @@
 # RickAndMortyAPI (RAMAPI)
- Work with RickAndMortyAPI
-C#
+ Work with RickAndMortyAPI 
+ 
+Language code: C#
+
  usage:
 need lib Newtonsoft.Json
  
