@@ -1,0 +1,12 @@
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\bin\Release\net5.0\RickAndMoryAPI.deps.json
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\bin\Release\net5.0\RickAndMoryAPI.dll
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\bin\Release\net5.0\ref\RickAndMoryAPI.dll
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\bin\Release\net5.0\RickAndMoryAPI.pdb
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\RickAndMoryAPI.csproj.AssemblyReference.cache
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\RickAndMoryAPI.GeneratedMSBuildEditorConfig.editorconfig
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\RickAndMoryAPI.AssemblyInfoInputs.cache
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\RickAndMoryAPI.AssemblyInfo.cs
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\RickAndMoryAPI.csproj.CoreCompileInputs.cache
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\RickAndMoryAPI.dll
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\ref\RickAndMoryAPI.dll
+P:\Libs\RickAndMoryAPI\RickAndMoryAPI\obj\Release\net5.0\RickAndMoryAPI.pdb
