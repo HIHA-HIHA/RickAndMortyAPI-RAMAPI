@@ -19,6 +19,9 @@ namespace RickAndMoryAPI
         [JsonProperty("origin")]
         public Origin Origin;
 
+        [JsonProperty("error")]
+        public string Error;
+
 
     }
 }

@@ -8,29 +8,33 @@ namespace RickAndMoryAPI
 {
     public class API
     {
-        public static int IdCharacter;
+        public  int IdCharacter;
 
-        public static async Task<Response> GetResponse()
+        public  async Task<Response> GetResponse()
         {
 
-            try
-            {
-                HttpResponseMessage message;
-                using (HttpClient httpClient = new HttpClient())
-                {
-                    message = await httpClient.GetAsync($"https://rickandmortyapi.com/api/character/{IdCharacter}");
-                }
 
-                string jsonText = await message.Content.ReadAsStringAsync();
-
-                Response response = JsonConvert.DeserializeObject<Response>(jsonText);
-                return response;
-            }
-            catch
+            HttpResponseMessage message;
+            using (HttpClient httpClient = new())
             {
-                throw new APIException("Херня какая та");
+                message = await httpClient.GetAsync($"https://rickandmortyapi.com/api/character/{IdCharacter}");
             }
 
+            string jsonText = await message.Content.ReadAsStringAsync();
+
+            Response response = JsonConvert.DeserializeObject<Response>(jsonText);
+            TryThrowExceptions(response);
+            return response;
+
+
+        }
+
+        private static void TryThrowExceptions(Response response)
+        {
+            if(response.Error != null)
+            {
+                throw new APIException(response.Error);
+            }
         }
 
 
